@@ -1,0 +1,27 @@
+{
+  "name": "batchpolygon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon  --watch ./src -e  ts,tsx  --exec node --inspect -r ts-node/register  ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dandao2022/batchPolygon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dandao2022/batchPolygon/issues"
+  },
+  "homepage": "https://github.com/dandao2022/batchPolygon#readme",
+  "dependencies": {
+    "dandao": "^1.2.5",
+    "nodemon": "^2.0.22",
+    "ts-loader": "^9.4.2",
+    "ts-node": "^10.9.1",
+    "cross-env": "^7.0.3"
+  }
+}
